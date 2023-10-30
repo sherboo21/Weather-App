@@ -1,17 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:gst_task/config/theme/app_colors.dart';
-import 'package:gst_task/presentation/screens/home/components/home_header.dart';
-import 'package:gst_task/presentation/screens/home/components/home_item.dart';
-import 'package:gst_task/presentation/screens/home/cubit/home_cubit.dart';
-import 'package:gst_task/presentation/widgets/custom_text.dart';
-import 'package:gst_task/utils/app_extentions.dart';
-import 'package:gst_task/utils/app_imgs.dart';
-import 'package:gst_task/utils/app_size.dart';
-import 'package:gst_task/utils/app_strings.dart';
-import 'package:conditional_builder_null_safety/conditional_builder_null_safety.dart';
-import 'components/home_model.dart';
+import 'components/home_imports.dart';
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
 

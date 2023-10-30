@@ -1,11 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:gst_task/utils/app_extentions.dart';
+import 'package:gst_task/presentation/screens/home/components/home_imports.dart';
 
-import '../../../../utils/app_imgs.dart';
-import '../../../../utils/app_size.dart';
-import '../../../widgets/custom_text.dart';
-import 'home_model.dart';
 class HomeItem extends StatelessWidget {
   final List<WeatherOptions> weatherOptionsList;
   final int index;

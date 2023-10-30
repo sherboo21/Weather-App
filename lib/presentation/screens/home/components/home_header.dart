@@ -1,12 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:gst_task/domain/model/weather.dart';
-import 'package:gst_task/utils/app_extentions.dart';
-
-import '../../../../config/theme/app_colors.dart';
-import '../../../../utils/app_imgs.dart';
-import '../../../../utils/app_size.dart';
-import '../../../widgets/custom_text.dart';
+import 'package:gst_task/presentation/screens/home/components/home_imports.dart';
 
 class HomeHeader extends StatelessWidget {
   final WeatherDataModel weatherDataModel;

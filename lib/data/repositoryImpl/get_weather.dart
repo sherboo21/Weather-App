@@ -1,7 +1,6 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:gst_task/presentation/screens/home/cubit/home_cubit.dart';
-
 import '../dataSources/remote/api_url.dart';
 import '../dataSources/remote/dio.dart';
 import 'get_current_location.dart';
